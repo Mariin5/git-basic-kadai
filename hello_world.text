@@ -1,0 +1,24 @@
+PS C:\Users\Marina Inoue\Desktop\git_challenge> git add hello_world.text
+PS C:\Users\Marina Inoue\Desktop\git_challenge> git commit -m "hello_world.textを追加"    
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Enumerating objects: 8, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Removing duplicate objects: 100% (256/256), done.
+Checking connectivity: 13090, done.
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.    
+[main 1e16b8e] hello_world.textを追加
+ 1 file changed, 1 deletion(-)
+
+PS C:\Users\Marina Inoue\Desktop\git_challenge> git add hello_world.text
+PS C:\Users\Marina Inoue\Desktop\git_challenge> git commit -m "日本語訳を追加"
+[main dd7f0d2] 日本語訳を追加
+ 1 file changed, 1 insertion(+)
+
+PS C:\Users\Marina Inoue\Desktop\git_challenge> git add hello_world.text
+PS C:\Users\Marina Inoue\Desktop\git_challenge> git log --oneline
+dd7f0d2 (HEAD -> main) 日本語訳を追加
+1e16b8e hello_world.textを追加
+
